@@ -1,0 +1,150 @@
+* {
+    scroll-behavior: smooth;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #638caa;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav,
+#main {
+    width: 80%;
+    margin: 10px auto;
+}
+
+#logoholder>img {
+    width: 35px;
+    height: 35px;
+    filter: invert(100%);
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.menu>a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu>a:hover {
+    color: #bcb9aa;
+    border-bottom: 2px solid red;
+}
+
+.menu {
+    margin: 25px;
+}
+
+#main>div.slider {
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainContent>div {
+    margin: 0px;
+    padding: 10px;
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.colorgray {
+    background-color: #bcb9aa;
+    image-resolution: 150dpi;
+}
+
+.colorbeige {
+    background-color: rgb(163, 163, 142);
+}
+
+.colorturquoise {
+    background-color: turquoise;
+}
+
+.colorlightblue {
+    background-color: lightblue;
+}
+
+.colorroyalblue {
+    background-color: rgb(169, 179, 211);
+}
+
+.iContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.iContainer>div {
+    margin: 0px;
+    padding: 10px;
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.whiteletter {
+    color: white;
+}
+
+.peach {
+    background-color: #FFC6AA;
+}
+
+.endContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.endContainer>div {
+    margin: 0px;
+    padding: 10px;
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#icons {
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+#copyrights {
+    background-color: rgb(41, 5, 41);
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    color: white;
+}
