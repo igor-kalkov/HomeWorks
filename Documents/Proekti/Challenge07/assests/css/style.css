@@ -1,0 +1,98 @@
+@media only screen and (max-width: 425px) {
+    body p {
+        font-size: 0.3em;
+    }
+    body h1, h2, h3, h4 {
+        font-size: 0.5em;
+    }
+    body a {
+        font-size: 0.3em !important;
+    }
+
+}
+
+* body {
+    margin: 0 !important;
+}
+
+.active {
+    color: white !important;
+}
+
+.lineHeight {
+    font-size: 35px;
+}
+nav {
+    line-height: 1cm;
+    padding-top: 0 !important;
+}
+
+.contentUp {
+   padding-bottom: 20% !important;
+   padding-right: 7%;
+}
+
+#parallax1 {
+    background-image: url("/home/iggy/Documents/Proekti/Challenge07/assests/img/lights.jpg");
+    height: 150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backgroundImage {
+    background-image: url("/home/iggy/Documents/Proekti/Challenge07/assests/img/media.jpg");
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.747);
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.marginFooter {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.paddingSubmit {
+    padding-left: 0 !important;
+}
+.bgImgDiv {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background-image: url("/home/iggy/Documents/Proekti/Challenge07/assests/img/image1.jpg"); 
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.PaddingPicText {
+    padding-top: 12%;
+}
+.PaddingRopundPic {
+    margin-top: -20%;
+}
+.marginP {
+    margin-left: -6%;
+    margin-right: -6%;
+    margin-bottom: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(201, 197, 197);
+}
+.offsetModified {
+    margin-left: 4%;
+}
+.accordionPl {
+    padding-right: 8%;
+}
+.bgColorFAQ {
+    background-color: rgb(58, 57, 57);
+}
+.blogPadding {
+    padding-left: 5%;
+    margin-left: 3%;
+}
+.cardFontSize {
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem !important;
+}
